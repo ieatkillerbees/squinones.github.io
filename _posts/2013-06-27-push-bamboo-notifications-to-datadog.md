@@ -142,9 +142,12 @@ author:
   first_name: Samantha
   last_name: Quiñones
 ---
-<p>In my last post, I mentioned that where I work, we settled on Bamboo as our continuous integration solution. I love Bamboo, but its built-in notification features are pretty lacking. In fact, your only options out of the box are XMPP messaging (with no conferencing, so meh) or email (yech).</p>
-<h2>I &lt;3 Datadog</h2>
+In my last post, I mentioned that where I work, we settled on Bamboo as our continuous integration solution. I love Bamboo, but its built-in notification features are pretty lacking. In fact, your only options out of the box are XMPP messaging (with no conferencing, so meh) or email (yech).
+
+##I <3 Datadog
+
 <p style="text-align: center;"><a href="http://datadoghq.com"><img class="aligncenter" alt="" src="assets/dd_logo_white_trim-300.png" width="300" height="62" /></a></p>
+
 <p>Another tool we use at <a href="http://politico.com" target="_blank">Politico</a> is <a href="http://datadoghq.com" target="_blank">Datadog</a>. If you're not familiar with it, Datadog is an amazing hosted devops tool that combines rich visualization of metrics data with very nifty event streams and quasi-social groupwarish features. Datadog is changing how devs and system admins work in our environment, and we're increasingly looking for ways that it can make our lives better.</p>
 <p>Datadog is our central event management platform, and having our build events there cuts Bamboo off from the rest of our notification pipeline, and that's just the pits. Over the past day or two, the Politico Tech Lab has been abuzz with increasingly Rube-Goldbergian ideas for how to solve what boils down to a very simple problem: how do we push a tiny blob of text across the Internet. Eventually we came to the idea of setting up an XMPP server that both Bamboo and our IRC bot could long in to, with the goal of teaching the IRC bot to forward messages to Datadog's API. Yeah, silly.</p>
 <p>Then, suddenly, the clouds parted and the heavenly chorus picked up and the solution presented itself as clear as crystal: python.</p>

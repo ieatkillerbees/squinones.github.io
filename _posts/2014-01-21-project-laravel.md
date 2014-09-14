@@ -1,18 +1,20 @@
 ---
 layout: post
-title: Nomad is coming!
-date: 2014-03-29 20:00:51.000000000 -04:00
-categories: []
-tags: []
+title: Project Laravel
+date: 2014-01-21 22:17:12.000000000 -05:00
+categories:
+- Development
+- Project Laravel
+tags:
+- laravel
+- php
 status: publish
 type: post
 published: true
 meta:
   _wps_seo_booster_enable_rating_post: 'off'
-  _yoast_wpseo_linkdex: '73'
+  _yoast_wpseo_linkdex: '79'
   _edit_last: '1'
-  _wpas_done_all: '1'
-  wpsd_autopost: '1'
   _wps_seo_booster_disable: ''
   _wps_seo_booster_ogp_title: ''
   _wps_seo_booster_ogp_description: ''
@@ -124,9 +126,11 @@ meta:
   _wps_seo_booster_event_ticket_price_currency: ''
   _wps_seo_booster_event_ticket_count: ''
   _wps_seo_booster_event_ticket_url: ''
-  _yoast_wpseo_focuskw: nomad
-  _wpas_mess: Nomad is coming!
-  _wpas_skip_3954340: '1'
+  _yoast_wpseo_focuskw: laravel
+  _yoast_wpseo_metadesc: I'm setting aside my dislike of frameworks to implement a
+    personal site & blog in Laravel in my free time.
+  _wpas_done_all: '1'
+  wpsd_autopost: '1'
 author:
   login: samantha
   email: samantha@tembies.com
@@ -134,7 +138,16 @@ author:
   first_name: Samantha
   last_name: Quiñones
 ---
-<p>I've been in the software engineering business for a long time, but until I was introduced to the PHP community, I never really cared to engage in the social aspect of this profession. I really feel that the PHP community is something unique. It's rare to find a community that stands on the firm foundation of long-established friendships that is also so incredibly welcoming to newcomers.</p>
-<p>I am still staggered by the friendship and support that has been given to me by people in the PHP world. The commitment that people have in the PHP community to raise one another up and to share their triumphs and frustrations, should be a model towards which every tech community should aspire.</p>
-<p>One great way to get involved is to attend Nomad PHP, a monthly on-line miniconf where devs come together to share their knowledge and experience. I am immeasurably proud to have the opportunity to team up with Nomad PHP this month and share something that I'm very passionate about. <a href="http://nomadphp.com/2014/01/24/april-2014/">Please join me April 17th at 8pm CDT to talk about the REST API, where it came from and where it's going, and how you can build better ones</a>.</p>
-<p>REST is more than just a buzzword in a recruiting email. It describes a pattern for organizing and delivering content that is tremendously appealing because of of its relative simplicity and low overhead. Understanding where the idea of REST comes from, and how established and emerging standards are used to construct REST APIs, will give you the edge you need to build highly effective APIs that are a breeze to scale, test, and maintain. You definitely don't want to miss it!</p>
+I've always been pretty candid about the fact that I'm not a big fan of frameworks. I think they're great for prototyping and for very simple applications. In my experience, though, whatever time you save starting your application up is lost when the inevitable quirky requirements and unexpected complexities force you to eventually extricate parts of your app from the framework you built it in.
+
+<p>That said, I have a number of friends who happen to be big Laravel fans and I've told most of them, at one point or another, that I'm willing to give it an honest chance before I write it off completely (like most other "full-stack" frameworks.) <a title="Patryk Kruk" href="http://twitter.com/patkruk">Patryk Kruk</a>, one of my colleagues at <a title="Politico" href="http://www.politico.com">POLITICO</a>, is a particularly persistent voice in my ear both to give Laravel a shot and to actually update my blog on occasion, so I dedicate this project to him.</p>
+<p>This site is sitting in a dusty corner of a shared hosting account that I've had sitting around for years. It's well past time to modernize and move it. That's my project: rebuild this personal site (in my spare time between work, personal projects, and other commitments) using Laravel and move it off this shared hosting account that I probably should have closed during the Bush administration.</p>
+<h3>The Parameters</h3>
+<ul>
+<li>Use all the "main" features of Laravel (i.e. Eloquent, facades, etc.) at least once.</li>
+<li>Gotta have serviceable blogging functionality that isn't a complete PITA to use.</li>
+<li>Blog my progress at least weekly, even if it's just to say I didn't do anything.</li>
+<li>Make the code freely available.</li>
+</ul>
+<p>That's all there is to it, really. At least I'll finally be able to get the Laravel fans in my life off my back. </p>
+<p>Or maybe I'll end up joining them?</p>

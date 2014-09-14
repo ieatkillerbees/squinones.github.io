@@ -141,10 +141,16 @@ author:
   first_name: Samantha
   last_name: Quiñones
 ---
-<p>No matter how popular an activity it is, I really don't like to bash on PHP. Every language has its flaws when you look closely enough, and if PHP wears its idiosyncrasies a little closer to the surface than most, I think it makes up for it in other ways. PHP's handling of types, however, is confusing at best and at worst completely deranged.</p>
-<p>I've seen intercity rail schedules that can't hold a candle to PHP's <a href="http://us1.php.net/types.comparisons">type comparison tables</a>. The bizarre and unexpected behaviors that can result from a non-strict comparison has all but rendered the equality operator (==) useless. The typical advice from PHP master to PHP neophyte is, always check for identicality (===) unless you're very sure what you're doing.</p>
-<p>In fact, as part of our pre-screening process at Politico, we often ask PHP developer candidates to explain why the following expression evaluates as true.</p>
-<pre>("politico" == 0);</pre>
+No matter how popular an activity it is, I really don't like to bash on PHP. Every language has its flaws when you look closely enough, and if PHP wears its idiosyncrasies a little closer to the surface than most, I think it makes up for it in other ways. PHP's handling of types, however, is confusing at best and at worst completely deranged.
+	
+I've seen intercity rail schedules that can't hold a candle to PHP's <a href="http://us1.php.net/types.comparisons">type comparison tables</a>. The bizarre and unexpected behaviors that can result from a non-strict comparison has all but rendered the equality operator (==) useless. The typical advice from PHP master to PHP neophyte is, always check for identicality (===) unless you're very sure what you're doing.
+
+In fact, as part of our pre-screening process at Politico, we often ask PHP developer candidates to explain why the following expression evaluates as true.
+
+{% highlight php %}
+("politico" == 0);
+{% endhighlight %}
+
 <p>This question probably wont stump a PHP developer with any significant experience. If you manage to code in PHP for more than a few months without running face-first in to this issue, you might not be trying hard enough.</p>
 <p>PHP is weakly typed in much the same way that water is slightly dry. When faced with the expression above, the interpreter tries to make sense of things by converting the string in to a number, following a single and actually <a href="http://www.php.net/manual/en/language.types.string.php#language.types.string.conversion">quite well documented set of rules.</a> To put it simply, if the string contains a '.', or the letter 'e', PHP will attempt to turn it in to a float. Otherwise, it turns it in to an integer. If the string starts with "valid numeric data," those numbers will be used as a value of the new integer (e.g. (int) "123foo" -&gt; 123). If the string doesn't start with a number, the value will be 0. The literal string "politico" starts with a 'p', which is not a number, and so the interpreter rewrites the above expression like so:</p>
 <pre>(0 == 0);</pre>

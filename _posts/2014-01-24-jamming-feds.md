@@ -1,19 +1,18 @@
 ---
 layout: post
-title: Project Laravel
-date: 2014-01-21 22:17:12.000000000 -05:00
+title: Jamming with the Feds
+date: 2014-01-24 05:06:05.000000000 -05:00
 categories:
-- Development
-- Project Laravel
+- Community
 tags:
-- laravel
-- php
+- data jam
+- open data
 status: publish
 type: post
 published: true
 meta:
   _wps_seo_booster_enable_rating_post: 'off'
-  _yoast_wpseo_linkdex: '79'
+  _yoast_wpseo_linkdex: '75'
   _edit_last: '1'
   _wps_seo_booster_disable: ''
   _wps_seo_booster_ogp_title: ''
@@ -126,11 +125,17 @@ meta:
   _wps_seo_booster_event_ticket_price_currency: ''
   _wps_seo_booster_event_ticket_count: ''
   _wps_seo_booster_event_ticket_url: ''
-  _yoast_wpseo_focuskw: laravel
-  _yoast_wpseo_metadesc: I'm setting aside my dislike of frameworks to implement a
-    personal site & blog in Laravel in my free time.
+  _yoast_wpseo_focuskw: data
+  _yoast_wpseo_title: Jamming with the Feds
+  _yoast_wpseo_metadesc: Making the world a better place through open data and cross-disciplinary
+    brainstorming!
+  _yoast_wpseo_opengraph-image: http://www.tembies.com/wp-content/uploads/2014/01/Beq5lvAIgAAEWUv.jpg
   _wpas_done_all: '1'
   wpsd_autopost: '1'
+  _wpas_skip_3954307: '1'
+  _wpas_skip_3954334: '1'
+  _wpas_skip_3954340: '1'
+  _wpas_skip_6013618: '1'
 author:
   login: samantha
   email: samantha@tembies.com
@@ -138,15 +143,14 @@ author:
   first_name: Samantha
   last_name: Quiñones
 ---
-<p>I've always been pretty candid about the fact that I'm not a big fan of frameworks. I think they're great for prototyping and for very simple applications. In my experience, though, whatever time you save starting your application up is lost when the inevitable quirky requirements and unexpected complexities force you to eventually extricate parts of your app from the framework you built it in.</p>
-<p>That said, I have a number of friends who happen to be big Laravel fans and I've told most of them, at one point or another, that I'm willing to give it an honest chance before I write it off completely (like most other "full-stack" frameworks.) <a title="Patryk Kruk" href="http://twitter.com/patkruk">Patryk Kruk</a>, one of my colleagues at <a title="Politico" href="http://www.politico.com">POLITICO</a>, is a particularly persistent voice in my ear both to give Laravel a shot and to actually update my blog on occasion, so I dedicate this project to him.</p>
-<p>This site is sitting in a dusty corner of a shared hosting account that I've had sitting around for years. It's well past time to modernize and move it. That's my project: rebuild this personal site (in my spare time between work, personal projects, and other commitments) using Laravel and move it off this shared hosting account that I probably should have closed during the Bush administration.</p>
-<h3>The Parameters</h3>
-<ul>
-<li>Use all the "main" features of Laravel (i.e. Eloquent, facades, etc.) at least once.</li>
-<li>Gotta have serviceable blogging functionality that isn't a complete PITA to use.</li>
-<li>Blog my progress at least weekly, even if it's just to say I didn't do anything.</li>
-<li>Make the code freely available.</li>
-</ul>
-<p>That's all there is to it, really. At least I'll finally be able to get the Laravel fans in my life off my back. </p>
-<p>Or maybe I'll end up joining them?</p>
+<p>"What on Earth is a Data Jam?" is precisely the question I asked myself yesterday afternoon when an email inviting me to participate in a White House Data Jam on STEM Workforce Quality, Flow, and Diversity landed in my inbox. Reading through some of the supplied documents made things only a little bit clearer. Despite the confusion and misgivings, I figured being asked if I want to come to a White House <em>anything</em> is a good enough reason to apply the Jim Halpert maxim and simply reply, "absolutely, I do."</p>
+
+![Getting to work at the White House]({{ site.url }}/assets/Beq5lvAIgAAEWUv.jpg)
+
+<p>So that's why at a shockingly early and frigid hour this morning, I found myself trudging down a quiet street in downtown Washington on my way to the Eisenhower Executive Office Building. After clearing security, I made my way upstairs to a large conference room, poured myself a cup of coffee (sweetened with splenda from yellow paper packets emblazoned with the Seal of the President of the United states!), and took a seat among a sea of a bunch of very, very smart people.</p>
+<p>It was through the introduction that the point of all this finally became clear. I was aware of the Obama Administration's support for government open data initiatives, which I praised in a very detached, "hey, open data's cool" kinda way, but I was not at all in tune with the very real ways in which the Federal government is trying to put this stuff in to practice.</p>
+<p>One of the big problems, as any open data advocate can tell you, is that governments amass just gigantic quantities of data in the course of their day-to-day... governing, but there aren't often clear ways to use it or even consistently access it. This is data, of course, that's held by the government in trust for the benefit of the the people as a whole, but it really doesn't do a lot of good to anyone if it's locked away in some database that no one's ever heard of.</p>
+<p>And so this is where Data Jams come in. I think we're all so conditioned to see the government as hopelessly bureaucratic and glacial that something like a Data Jam is actually a little bit shocking. It's a simple concept: get a bunch of government stewards of various datasets, potential consumers of that data, entrepreneurs and other private sector people in closely related fields, and some software developers together in a room and come up with 5 or 10 really good, actionable ideas for making that data work for the American people.</p>
+<p>Since I'm not so sure about the etiquette of these things, and some folks were already a little on edge having someone from POLITICO hanging around**, I won't go too deeply in to the proceedings, but I have to say that I was amazed by what we accomplished in 6 short hours together. Brainstorming with a neuroscientist, a senior manager in the Federal service, an open data specialist, other developers, and human resources gurus really stretched my brain out in weird ways that I have to say I really enjoyed. And coming away from it, I feel like we actually did hit on some good, practical ideas that have the potential to make the Federal service, and the American workforce in general, just a tiny bit better.</p>
+<p>I guess most importantly to me, it was a reminder that we can all serve society in our own ways. Not all of us are meant to be soldiers or politicians or diplomats. I'm just simple programmer who really likes building cool APIs, and if I can help, anyone can.</p>
+<p><em>**I feel the need to make a strong disclaimer here that while I am employed by POLITICO, I'm in no way a journalist and I have no pretensions of being one. I have a tremendous amount of respect for my colleagues in the journalism organization at POLITICO and while I'm always proud to represent the company, my participation today was primarily as a member of the broader technology community.</em></p>

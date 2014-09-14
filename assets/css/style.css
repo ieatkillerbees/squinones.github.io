@@ -147,6 +147,10 @@ article.home h4 a:hover {
 	color: #e74c3c;
 }
 
+article.home div a.read-more {
+	color: #f2756a;
+}
+
 .author .author-image {
   float: left;
   margin-right: 20px;

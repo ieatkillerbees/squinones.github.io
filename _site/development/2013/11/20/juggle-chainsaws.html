@@ -124,7 +124,7 @@
 		
 		
 		<li>
-			<a class="btn btn-default btn-sm" href="https://linkedin.com/pub/asd123">
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/in/samanthaquinones">
 				<i class="fa fa-linkedin fa-lg"></i>
 			</a>
 		</li>
@@ -170,10 +170,14 @@
 	   2013
 	 </span>
 	  <div class="article_body">
-	  <p>No matter how popular an activity it is, I really don't like to bash on PHP. Every language has its flaws when you look closely enough, and if PHP wears its idiosyncrasies a little closer to the surface than most, I think it makes up for it in other ways. PHP's handling of types, however, is confusing at best and at worst completely deranged.</p>
-<p>I've seen intercity rail schedules that can't hold a candle to PHP's <a href="http://us1.php.net/types.comparisons">type comparison tables</a>. The bizarre and unexpected behaviors that can result from a non-strict comparison has all but rendered the equality operator (==) useless. The typical advice from PHP master to PHP neophyte is, always check for identicality (===) unless you're very sure what you're doing.</p>
+	  <p>No matter how popular an activity it is, I really don’t like to bash on PHP. Every language has its flaws when you look closely enough, and if PHP wears its idiosyncrasies a little closer to the surface than most, I think it makes up for it in other ways. PHP’s handling of types, however, is confusing at best and at worst completely deranged.</p>
+
+<p>I’ve seen intercity rail schedules that can’t hold a candle to PHP’s <a href="http://us1.php.net/types.comparisons">type comparison tables</a>. The bizarre and unexpected behaviors that can result from a non-strict comparison has all but rendered the equality operator (==) useless. The typical advice from PHP master to PHP neophyte is, always check for identicality (===) unless you’re very sure what you’re doing.</p>
+
 <p>In fact, as part of our pre-screening process at Politico, we often ask PHP developer candidates to explain why the following expression evaluates as true.</p>
-<pre>("politico" == 0);</pre>
+
+<div class="highlight"><pre><code class="language-php" data-lang="php">(&quot;politico&quot; == 0);</code></pre></div>
+
 <p>This question probably wont stump a PHP developer with any significant experience. If you manage to code in PHP for more than a few months without running face-first in to this issue, you might not be trying hard enough.</p>
 <p>PHP is weakly typed in much the same way that water is slightly dry. When faced with the expression above, the interpreter tries to make sense of things by converting the string in to a number, following a single and actually <a href="http://www.php.net/manual/en/language.types.string.php#language.types.string.conversion">quite well documented set of rules.</a> To put it simply, if the string contains a '.', or the letter 'e', PHP will attempt to turn it in to a float. Otherwise, it turns it in to an integer. If the string starts with "valid numeric data," those numbers will be used as a value of the new integer (e.g. (int) "123foo" -&gt; 123). If the string doesn't start with a number, the value will be 0. The literal string "politico" starts with a 'p', which is not a number, and so the interpreter rewrites the above expression like so:</p>
 <pre>(0 == 0);</pre>
@@ -187,7 +191,7 @@
     if (!in_array($foo, $validOptions)) { 
         throw new InvalidArgumentException("foo must be one of: " . implode(", ", $validOptions)); 
     } 
-    $this->foo = $foo; 
+    $this-&gt;foo = $foo; 
 }</pre>
 <p>Even for a setter method, this is pretty unremarkable. Yet when we run our unit tests, we get an interesting failure. Our test that passes in an invalid argument expects to see an exception, but it doesn't. In fact, this method accepts almost any string as valid. And despite my being way more familiar with PHP's weird type handling than I really want to be, it still took me several minutes to figure out what was going on here.</p>
 <p>Those constants are a form of abstraction, hiding an implementation detail of one of our class's dependencies that we shouldn't have to care about. If the dependency ever decides to change that implementation, using the constants means we don't have to alter our code to keep up. But ignorance is often misguided bliss because VALID_CONSTANT_A is actually set to the integer 0, and by default, the in_array function doesn't do a strict, type-safe comparison.</p>
@@ -198,7 +202,7 @@
     if (!in_array($foo, $validOptions, true)) { 
         throw new InvalidArgumentException("foo must be one of: " . implode(", ", $validOptions)); 
     } 
-    $this->foo = $foo; 
+    $this-&gt;foo = $foo; 
 }</pre>
 <p>In case you didn't notice the change, in_array accepts a third argument, a boolean which forces strict comparison when set to true. Now our unit tests pass and our crisis is averted.</p>
 <p>Maybe there's a parable here. It's a pretty vivid illustration of why unit tests are worth our time and effort, if nothing else. Still, it nags at me. At the very best, silly things like this eat up valuable time. I don't even want to consider the very worst.</p>
@@ -235,7 +239,7 @@
 			 
 				<li>
 					<a href="/tags.html#php-ref">
-					php <span>(3)</span>
+					php <span>(4)</span>
 					,
 					</a>
 				</li>
@@ -321,7 +325,16 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="/assets/js/app.js"></script>
-	<script type="text/javascript" src="/assets/resources/gcal/jquery.gcal_flow.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-39817287-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
 	
 </body>
 </html>
