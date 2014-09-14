@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Categories</title>
+	
+	<meta name="author" content="Samantha Quiñones">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/assets/resources/gcal/jquery.gcal_flow.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+
+	<!-- Le fav and touch icons -->
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+
+<body>
+	<nav class="navbar navbar-default visible-xs" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/squinones">
+				<i class="fa fa-github"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/ieatkillerbees">
+				<i class="fa fa-twitter"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="mailto:samantha@tembies.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+			
+			<a class="navbar-brand" href="/">
+				<img src="assets/media/b4panel.png" class="img-circle" />
+				
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/calendar.html">Calendar</a></li>
+				<li><a href="/categories.html">Categories</a></li>
+				<li><a href="/tags.html">Tags</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<!-- nav-menu-dropdown -->
+	<div class="btn-group hidden-xs" id="nav-menu">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			<i class="fa fa-bars"></i>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			<li class="divider"></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3 sidebar hidden-xs">
+		<! -- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="/">
+		<img src="/assets/media/b4panel.png" class="img-circle" />
+		<!-- <img src="http://www.gravatar.com/avatar/24368af16c4b0946ece77da839b7b53a?s=150" class="img-circle" /> -->
+	</a>
+	<h3 class="title">
+        <a href="/"></a>
+    </h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	PHP & Python hacker, lead engineer @POLITICO
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/squinones">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/ieatkillerbees">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/pub/asd123">
+				<i class="fa fa-linkedin fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:samantha@tembies.com">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<div>
+	<ul id="twitter-widget" class="list-unstyled">
+		<a class="twitter-timeline" href="https://twitter.com/ieatkillerbees" data-widget-id="510951210841427968">Tweets by @ieatkillerbees</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</ul>
+</ul>
+</div>
+<! -- sidebar.html end -->
+
+	</div>
+
+	<div class="col-sm-9 content-body col-sm-offset-3">
+		<div class="page-header">
+  <h1>Categories </h1>
+</div>
+
+<div class="col-sm-3 col-xs-6">
+    <ul class="nav nav-tabs-vertical">
+      
+      
+        
+            <li>
+                <a href="/categories.html#community-ref" data-toggle="tab">
+                    Community <span class="badge pull-right">5</span>
+                </a>
+            </li>
+        
+            <li>
+                <a href="/categories.html#devops-ref" data-toggle="tab">
+                    Devops <span class="badge pull-right">2</span>
+                </a>
+            </li>
+        
+            <li>
+                <a href="/categories.html#development-ref" data-toggle="tab">
+                    Development <span class="badge pull-right">2</span>
+                </a>
+            </li>
+        
+            <li>
+                <a href="/categories.html#project-laravel-ref" data-toggle="tab">
+                    Project laravel <span class="badge pull-right">2</span>
+                </a>
+            </li>
+        
+      
+      
+    </ul>
+</div>
+<!-- Tab panes -->
+<div class="tab-content col-sm-9 col-xs-6">
+  
+    <div class="tab-pane" id="community-ref">
+      <h2 style="margin-top: 0px">Posts in Community</h2>
+      <ul class="list-unstyled">
+        
+        
+          
+            
+              <li style="line-height: 35px;"><a href="/community/2014/05/26/phptek-2014-retrospective.html">php|tek 2014 Retrospective</a> <span class="text-muted">- May 26, 2014</span></li>
+            
+          
+        
+          
+            
+              <li style="line-height: 35px;"><a href="/community/2014/01/24/jamming-feds.html">Jamming with the Feds</a> <span class="text-muted">- January 24, 2014</span></li>
+            
+          
+        
+          
+            
+              <li style="line-height: 35px;"><a href="/community/2014/01/18/skiphp-talk-slides.html">SkiPHP Talk Slides</a> <span class="text-muted">- January 18, 2014</span></li>
+            
+          
+        
+          
+            
+              <li style="line-height: 35px;"><a href="/community/2013/06/11/speaking-tonight-at-dcphp.html">Speaking tonight at DCPHP</a> <span class="text-muted">- June 11, 2013</span></li>
+            
+          
+        
+          
+            
+              <li style="line-height: 35px;"><a href="/community/2013/05/19/a-phenomenal-impostor.html">A phenomenal impostor</a> <span class="text-muted">- May 19, 2013</span></li>
+            
+          
+        
+        
+      </ul>
+    </div>
+  
+    <div class="tab-pane" id="devops-ref">
+      <h2 style="margin-top: 0px">Posts in Devops</h2>
+      <ul class="list-unstyled">
+        
+        
+          
+            
+              <li style="line-height: 35px;"><a href="/devops/2013/06/27/push-bamboo-notifications-to-datadog.html">Pushing Bamboo Notifications to Datadog</a> <span class="text-muted">- June 27, 2013</span></li>
+            
+          
+        
+          
+            
+              <li style="line-height: 35px;"><a href="/devops/2013/06/12/continuous-integration-deployment-with-php.html">Why you should consider Continuous Integration</a> <span class="text-muted">- June 12, 2013</span></li>
+            
+          
+        
+        
+      </ul>
+    </div>
+  
+    <div class="tab-pane" id="development-ref">
+      <h2 style="margin-top: 0px">Posts in Development</h2>
+      <ul class="list-unstyled">
+        
+        
+          
+            
+              <li style="line-height: 35px;"><a href="/development/project%20laravel/2014/01/21/project-laravel.html">Project Laravel</a> <span class="text-muted">- January 21, 2014</span></li>
+            
+          
+        
+          
+            
+              <li style="line-height: 35px;"><a href="/development/2013/11/20/juggle-chainsaws.html">Juggle Chainsaws, Not Types</a> <span class="text-muted">- November 20, 2013</span></li>
+            
+          
+        
+        
+      </ul>
+    </div>
+  
+    <div class="tab-pane" id="project-laravel-ref">
+      <h2 style="margin-top: 0px">Posts in Project laravel</h2>
+      <ul class="list-unstyled">
+        
+        
+          
+            
+              <li style="line-height: 35px;"><a href="/project%20laravel/2014/02/08/project-laravel-first-impressions.html">Project Laravel -- Session 1: First impressions</a> <span class="text-muted">- February 08, 2014</span></li>
+            
+          
+        
+          
+            
+              <li style="line-height: 35px;"><a href="/development/project%20laravel/2014/01/21/project-laravel.html">Project Laravel</a> <span class="text-muted">- January 21, 2014</span></li>
+            
+          
+        
+        
+      </ul>
+    </div>
+  
+</div>
+
+<div class="clearfix"></div>
+
+
+
+
+		<footer>
+			<hr/>
+			<p>
+				&copy; 2014 Samantha Quiñones with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+			</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+	<script type="text/javascript" src="/assets/resources/gcal/jquery.gcal_flow.js"></script>
+	
+</body>
+</html>
+

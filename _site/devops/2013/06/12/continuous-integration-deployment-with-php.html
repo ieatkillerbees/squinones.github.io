@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Why you should consider Continuous Integration</title>
+	
+	<meta name="author" content="Samantha Quiñones">
+
+	<!-- Enable responsive viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Le styles -->
+	<link href="/assets/resources/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/assets/resources/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="/assets/resources/syntax/syntax.css" rel="stylesheet">
+	<link href="/assets/resources/gcal/jquery.gcal_flow.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+
+	<!-- Le fav and touch icons -->
+	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	-->
+
+	<link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
+</head>
+
+<body>
+	<nav class="navbar navbar-default visible-xs" role="navigation">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://github.com/squinones">
+				<i class="fa fa-github"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="http://twitter.com/ieatkillerbees">
+				<i class="fa fa-twitter"></i>
+			</a>
+			
+			
+			<a type="button" class="navbar-toggle nav-link" href="mailto:samantha@tembies.com">
+				<i class="fa fa-envelope"></i>
+			</a>
+			
+			<a class="navbar-brand" href="/">
+				<img src="assets/media/b4panel.png" class="img-circle" />
+				
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/calendar.html">Calendar</a></li>
+				<li><a href="/categories.html">Categories</a></li>
+				<li><a href="/tags.html">Tags</a></li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+
+	<!-- nav-menu-dropdown -->
+	<div class="btn-group hidden-xs" id="nav-menu">
+		<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+			<i class="fa fa-bars"></i>
+		</button>
+		<ul class="dropdown-menu" role="menu">
+			<li><a href="/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="/categories.html"><i class="fa fa-folder"></i>Categories</a></li>
+			<li><a href="/tags.html"><i class="fa fa-tags"></i>Tags</a></li>
+			<li class="divider"></li>
+			<li><a href="#"><i class="fa fa-arrow-up"></i>Top of Page</a></li>
+		</ul>
+	</div>
+
+	<div class="col-sm-3 sidebar hidden-xs">
+		<! -- sidebar.html -->
+<header class="sidebar-header" role="banner">
+	<a href="/">
+		<img src="/assets/media/b4panel.png" class="img-circle" />
+		<!-- <img src="http://www.gravatar.com/avatar/24368af16c4b0946ece77da839b7b53a?s=150" class="img-circle" /> -->
+	</a>
+	<h3 class="title">
+        <a href="/"></a>
+    </h3>
+</header>
+
+
+<div id="bio" class="text-center">
+	PHP & Python hacker, lead engineer @POLITICO
+</div>
+
+
+<div id="contact-list" class="text-center">
+	<ul class="list-unstyled list-inline">
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://github.com/squinones">
+				<i class="fa fa-github-alt fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://twitter.com/ieatkillerbees">
+				<i class="fa fa-twitter fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="https://linkedin.com/pub/asd123">
+				<i class="fa fa-linkedin fa-lg"></i>
+			</a>
+		</li>
+		
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="mailto:samantha@tembies.com">
+				<i class="fa fa-envelope fa-lg"></i>
+			</a>
+		</li>
+		
+		<li>
+			<a class="btn btn-default btn-sm" href="/feed.xml">
+				<i class="fa fa-rss fa-lg"></i>
+			</a>
+		</li>
+	</ul>
+</div>
+<div>
+	<ul id="twitter-widget" class="list-unstyled">
+		<a class="twitter-timeline" href="https://twitter.com/ieatkillerbees" data-widget-id="510951210841427968">Tweets by @ieatkillerbees</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</ul>
+</ul>
+</div>
+<! -- sidebar.html end -->
+
+	</div>
+
+	<div class="col-sm-9 content-body col-sm-offset-3">
+		<div class="page-header">
+  <h1>Why you should consider Continuous Integration </h1>
+</div>
+	
+<article>
+
+	<div class="col-sm-10">
+	 <span class="post-date">
+	   
+	   June 
+	   12th,
+	   
+	   2013
+	 </span>
+	  <div class="article_body">
+	  <p>Last night at <a title="DCPHP Meetup" href="http://www.meetup.com/DC-PHP" target="_blank">DCPHP</a>, I gave a short "lightning" talk on <a href="https://speakerdeck.com/squinones/continuous-integration-and-deployment-with-php" target="_blank">Continuous Integration and Deployment</a> in the context of PHP applications. I really like the lightning talk format as it forces you to focus on the meat of your topic-- there's no time to get distracted by details. As great as that is, though, I wanted to expand a little on the subject and touch on some of the details that I couldn't include in my presentation.</p>
+<h3>What is Continuous Integration?</h3>
+<p>Continuous Integration is a grand-sounding name for a very simple concept. Every time you make a change to your application's code (or, at least, on a very frequent and recurring basis), you build and test the entire application. Each change is integrated in to the application immediately.</p>
+<p>Of course building and testing your entire application after each and every commit seems like a big task, and it is. Because we're building so frequently, it's essential that our building and testing happens automatically. Human intervention in the process has to be limited only to occasions when a build fails. When everything builds successfully, it should happen in the background like magic.</p>
+<h3>What's Wrong With Traditional Build/Deployment Practices?</h3>
+<p>To answer that question, it's important that we think about everything that usually goes in to building and deploying an application, specifically a web-facing PHP application. Very often there are configuration files that need to be modified. Bootstrap scripts and autoloaders need to be updated. Sometimes we find ourselves writing scripts to move files around, or update databases.</p>
+<p>Hopefully part of the process involves running some kind of automated tests.</p>
+<p>And once all of that is done, and it's time to deploy, we find ourselves staring at an FTP client. Often we use our VCS as a deployment tool, which is great because typing 'svn update' is so simple, but how many of you have ever left a .git directory or some other VCS artifact hanging out there for the world to see?</p>
+<p>Sometimes we're stuck copying and editing files by hand in production, which is the kind of thing that gives me nightmares.</p>
+<p>To put it bluntly, building and pushing by hand sucks. It's extremely error-prone and however unintuitive it may sound, the more you do it, the more likely you are to screw something up. When it's two in the morning and you're tired and you've done it a million times before, your attention wanders. You forget a step. You push the wrong thing out to production or forget to run a database update script and now you have a fire on your hands. Several years ago I was manually moving a production application between two servers for routine maintenance. It was something I had done hundreds of times before. I forgot to scp a file over and brought the system up on a month-old copy of the database. It took two days to set things straight again. That was a lesson I don't think I could ever forget.</p>
+<p>If that's not bad enough, doing it by hand encourages another kind of laziness. We're developers and when we see problems, it's in our nature to fix them. "It's just a simple fix," we'll tell ourselves. Maybe no one's noticed it's broken yet and a quick edit to that one file will save the headache of a problem report in the morning. Maybe we'll remember to commit the change to the repo as well, or maybe in six weeks that bug will show its ugly face again the next time someone deploys the unedited version of the code from git.</p>
+<h3>There is a Better Way</h3>
+<p>Continuous Integration is one of the practices of Extreme Programming and Agile Development. When you think about it, it's a perfect fit. Agile development is all about short, tight iterations. User story, enhancement, build, release. Lather, rinse, repeat. Martin Fowler and Kent Beck first described CI back in the late 90s and <a href="http://www.martinfowler.com/articles/continuousIntegration.html" target="_blank">Martin's original article</a> is still essential reading for any team looking to adopt the practice.</p>
+<p>Before you can get started with CI, though, you need to prepare your codebase. If you don't have automated tests, you're going to need them. Going continuous relies on having confidence in the state of the application and the only way to build that confidence is through automated, repeatable tests.</p>
+<p>You're also going to need an environment that's as similar to production as is reasonably possible. Today, thanks to the ease of setting up virtual machines (what up, <a href="http://vagrantup.com" target="_blank">vagrant</a> and <a href="http://puphpet.com" target="_blank">puphpet</a>!?), there's no excuse to develop and test in Windows and then deploy on Linux anymore.</p>
+<p>Once your codebase is ready, it's time to start automating your builds. There are tons of tools out there to handle build automation, from ye olde make(1) to rake and phing and ant and maven and so on. I'm personally a fan of phing (which is inspired by ant and php-focused), but feel free to use whatever you're most comfortable with.</p>
+<p>While you're evaluating build automation tools, don't forget about your databases! If you use an RDBMS and don't use any database migration tools, start! Database migration tools are like version control for your database, and they provide a framework for deploying database changes in a sane way. Many major PHP frameworks include a migration tool, and there are plenty of standalone tools like <a href="http://dbdeploy.com/" target="_blank">dbdeploy</a>, <a href="http://www.liquibase.org/" target="_blank">liquibase</a>, and <a href="https://bitbucket.org/zzzeek/alembic" target="_blank">alembic</a> (it's not just for python projects!).</p>
+<h3>Now the Real Decisions Have to be Made</h3>
+<p>What does a good build look like? How much code needs to be covered by tests before you feel confident to deploy? Should a build fail because a developer failed to follow a coding standard or forgot to add auto-documentation tags to her comments? Should a build be considered successful even if the number of findings from your static analysis tool doubled since the last release?</p>
+<p>These are questions that every team needs to answer for themselves, but when you think about it, having to consider what concrete, objective criteria need to be met before you deliver software is a great problem to have!</p>
+<p>This is a good time to start looking at Continuous Integration servers. There are tons of them out there, both free and commercial, but they all perform essentially the same functions. The CI server is the tool that's going to monitor your VCS repository for changes, run your build automation scripts, notify your team when things go poorly, and kick off your deployments.</p>
+<p>In a future article, we'll explore each of these stages in more detail, so stay tuned!</p>
+<h3>Further Reading</h3>
+<ul>
+<li><a href="http://www.phing.info/docs/guide/trunk/chapters/GettingStarted.html" target="_blank">Phing Getting Started Guide</a></li>
+<li><a href="http://www.martinfowler.com/articles/continuousIntegration.html" target="_blank">Continuous Integration by Martin Fowler</a></li>
+</ul>
+
+	  </div>
+
+		
+		<ul class="tag_box list-unstyled list-inline">
+		  <li><i class="fa fa-folder-open"></i></li>
+		  
+		  
+			 
+				<li><a href="/categories.html#devops-ref">
+					devops <span>(2)</span>
+					
+				</a></li>
+			
+		  
+		</ul>
+		  
+
+		
+		<ul class="list-inline">
+		  <li><i class="fa fa-tags"></i></li>
+		  
+		  
+			 
+				<li>
+					<a href="/tags.html#agile-ref">
+					agile <span>(1)</span>
+					,
+					</a>
+				</li>
+			 
+				<li>
+					<a href="/tags.html#continuous delivery-ref">
+					continuous delivery <span>(1)</span>
+					,
+					</a>
+				</li>
+			 
+				<li>
+					<a href="/tags.html#continuous deployment-ref">
+					continuous deployment <span>(1)</span>
+					,
+					</a>
+				</li>
+			 
+				<li>
+					<a href="/tags.html#continuous integration-ref">
+					continuous integration <span>(2)</span>
+					,
+					</a>
+				</li>
+			 
+				<li>
+					<a href="/tags.html#devops-ref">
+					devops <span>(2)</span>
+					,
+					</a>
+				</li>
+			 
+				<li>
+					<a href="/tags.html#php-ref">
+					php <span>(3)</span>
+					
+					</a>
+				</li>
+			
+		  
+		  
+		</ul>
+		  
+
+		<hr>
+
+		<div>
+      <section class="share col-sm-6">
+        <h4 class="section-title">Share Post</h4>
+        <a class="btn btn-default btn-sm twitter" href="http://twitter.com/share?text=Why you should consider Continuous Integration&via=ieatkillerbees"
+           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+          <i class="fa fa-twitter fa-lg"></i>
+          Twitter
+        </a>
+        <a class="btn btn-default btn-sm facebook" href="https://www.facebook.com/sharer/sharer.php"
+           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+          <i class="fa fa-facebook fa-lg"></i>
+          Facebook
+        </a>
+        <a class="btn btn-default btn-sm gplus"
+           onclick="window.open('https://plus.google.com/share?url='+window.location.href, 'google-plus-share', 'width=490,height=530');return false;">
+          <i class="fa fa-google-plus fa-lg"></i>
+          Google+
+        </a>
+      </section>
+
+      <section class="col-sm-6 author">
+        <img src="http://www.gravatar.com/avatar/24368af16c4b0946ece77da839b7b53a" class="img-rounded author-image" />
+        <h4 class="section-title author-name">Samantha Quiñones</h4>
+        <p class="author-bio">PHP & Python hacker, lead engineer @POLITICO</p>
+      </section>
+    </div>
+
+    <div class="clearfix"></div>
+
+		<ul class="pager">
+		  
+		  <li class="previous"><a href="/community/2013/06/11/speaking-tonight-at-dcphp.html" title="Speaking tonight at DCPHP">&larr; Previous</a></li>
+		  
+		  
+		  <li class="next"><a href="/devops/2013/06/27/push-bamboo-notifications-to-datadog.html" title="Pushing Bamboo Notifications to Datadog">Next &rarr;</a></li>
+		  
+		</ul>
+
+		<hr>
+	</div>
+	
+	<div class="col-sm-2 sidebar-2">
+	
+	</div>
+</article>
+<div class="clearfix"></div>
+
+
+
+		<footer>
+			<hr/>
+			<p>
+				&copy; 2014 Samantha Quiñones with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+			</p>
+		</footer>
+	</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="/assets/resources/bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/assets/js/app.js"></script>
+	<script type="text/javascript" src="/assets/resources/gcal/jquery.gcal_flow.js"></script>
+	
+</body>
+</html>
+

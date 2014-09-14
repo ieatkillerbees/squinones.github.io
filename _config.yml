@@ -1,0 +1,33 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: true
+markdown: kramdown
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Samantha Quiñones
+
+description: A Marginally Useful Blog
+author:
+  name: Samantha Quiñones
+  email: samantha@tembies.com
+  github: squinones
+  twitter: ieatkillerbees
+  pinterest: asd123
+  linkedin: asd123
+  bio: PHP & Python hacker, lead engineer @POLITICO
+  email_md5: 24368af16c4b0946ece77da839b7b53a
+
+rss_path: feed.xml
+categories_path: categories.html
+calendar_path: calendar.html
+tags_path: tags.html
+
+BASE_PATH:
