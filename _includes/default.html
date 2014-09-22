@@ -69,6 +69,7 @@
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="{{ site.BASE_PATH }}/">Home</a></li>
 				<li><a href="{{ site.BASE_PATH}}/{{ site.calendar_path }}">Calendar</a></li>
+				<li><a href="{{ site.BASE_PATH}}/{{ site.about_path }}">About</a></li>
 				<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}">Categories</a></li>
 				<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}">Tags</a></li>
 			</ul>
@@ -78,9 +79,10 @@
 	<div class="col-sm-3 sidebar hidden-xs">
 		{% include sidebar.html %}
 	</div>
-	<div class="col-sm-9 navbar col-sm-offset-3 hidden-xs" id="navbar">
+	<div class="col-sm-9 navbar col-sm-offset-3 hidden-x" id="navbar">
 		<ul role="menu">
 			<li><a href="{{ site.BASE_PATH}}/"><i class="fa fa-home"></i>Home</a></li>
+			<li><a href="{{ site.BASE_PATH }}/{{ site.about_path }}"><i class="fa fa-heart">About</i></a></li>
 			<li><a href="{{ site.BASE_PATH }}/{{ site.calendar_path }}"><i class="fa fa-calendar">Calendar</i></a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.categories_path }}"><i class="fa fa-folder"></i>Categories</a></li>
 			<li><a href="{{ site.BASE_PATH}}/{{ site.tags_path }}"><i class="fa fa-tags"></i>Tags</a></li>
@@ -93,7 +95,7 @@
 		<footer>
 			<hr/>
 			<p>
-				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+				&copy; {{ site.time | date: '%Y' }} {{ site.author.name }} with Jekyll. Theme based on: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
 			</p>
 		</footer>
 	</div>

@@ -257,3 +257,7 @@ ul.dropdown-menu>li>a>i.fa {
 #event-calendar hr {
 	width: 60%;
 }
+
+footer p {
+	font-size: .8em;
+}
