@@ -1,0 +1,33 @@
+- name: Northeast PHP
+  link: http://northeastphp.com
+  location: "Cambridge, MA"
+  date:  2014-09-07T13:00:00Z-0004
+  talk:  Demystifying the REST API
+  description: > 
+    REST APIs are not always well understood. Let's get back to basics and talk about what REST is any why it makes the web a better place.
+    RESTful APIs are all the rage in the web development community, but there's a surprising lack of consensus about how to build them the 
+    right way. If you've ever been confused about whether to use PUT or POST, or found yourself wondering what the heck an unsafe 
+    non-idempotent operation is, this talk will set you straight.
+  
+- name: ZendCon
+  link: http://www.zendcon.com
+  location: "Santa Clara, CA"
+  date: 2014-10-27
+  talk: Designing Service Architectures for the Cloud
+  description: >
+    Service-Oriented Architecture is not a new concept but modern cloud computing platforms have given it new life. The flexibility of these 
+    platforms allows us to break out of the usual scaling patterns and precisely target resources where and when we need them. By examining a 
+    case study, we will explore some of the technologies and techniques needed to create scalable, reliable, responsive applications at any 
+    scale.
+   
+- name: ZendCon
+  link: http://www.zendcon.com
+  location: "Santa Clara, CA"
+  date: 2014-10-27
+  talk: RESTful Web Services with Silex
+  description: >
+    Silex is a lightweight micro-framework built on Symfony components. Don't let its small footprint fool you, though. Silex is powerful 
+    enough to form the backbone of even the most complex service-oriented application. In this talk, I will cover the basics of creating a 
+    Silex application, building service providers, and constructing RESTful controllers. From there, we'll more on to more advanced topics 
+    such as composing and delivering hypermedia content, monitoring and profiling, logging, and service integration.
+  

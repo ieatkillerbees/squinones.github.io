@@ -188,16 +188,72 @@ footer {
 
 #nav-menu{
     position: fixed;
-    top: 45px;
+    top: 15px;
     right: 45px;
     z-index: 2000;
 }
+
 #nav-menu .dropdown-menu {
     left: inherit;
     right: 0px;
+}
+
+#navbar {
+	position: fixed;
+	right: 0px;
+	margin: 0;
+	min-height: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+#navbar ul {
+	padding: 0;
+	padding-right: 15px;
+	margin: 0;
+	text-align: right;
+}
+
+#navbar li {
+	display: inline;
+	list-style-type: none;
+}
+
+#navbar i.fa {
+	margin-left: 1em;
+	margin-right: 2px;
 }
 
 ul.dropdown-menu>li>a>i.fa {
     width: 1.3em;
 }
 
+#event-calendar li {
+	list-style-type: none;
+	margin-bottom: 15px;
+}
+
+#event-calendar span.event-date {
+	font-weight: bold;
+}
+
+#event-calendar span.event-name {
+	font-style: italic;
+}
+
+#event-calendar span.event-talk {
+	font-weight: bold;
+	font-size: 0.95em;
+}
+
+#event-calendar span.event-description {
+	font-style: oblique;
+	color: #6E6E6E;
+	font-size: 0.9em;
+	margin-left: 2em;
+	display: inline-block;
+}
+
+#event-calendar hr {
+	width: 60%;
+}
