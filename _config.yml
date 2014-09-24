@@ -6,6 +6,8 @@ exclude: ["README.md"] # files to exclude
 highlighter: true
 markdown: kramdown
 
+gems:
+  - jekyll-sitemap
 
 defaults:
   -
@@ -18,7 +20,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      comments: true	  
+      comments: true
 
 description: A Marginally Useful Blog
 author:
