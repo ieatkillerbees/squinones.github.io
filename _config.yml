@@ -22,7 +22,7 @@ defaults:
     values:
       comments: true
 
-description: A Marginally Useful Blog
+description: Samantha Quiñones' Blog
 author:
   name: Samantha Quiñones
   github: squinones
