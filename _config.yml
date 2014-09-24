@@ -13,17 +13,23 @@ defaults:
       path: "" # empty string for all files
     values:
       title: Samantha Quiñones
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true	  
 
 description: A Marginally Useful Blog
 author:
   name: Samantha Quiñones
-  email: samantha@tembies.com
   github: squinones
   twitter: ieatkillerbees
   linkedin: samanthaquinones
   bio: PHP & Python hacker, lead engineer @POLITICO
   email_md5: 24368af16c4b0946ece77da839b7b53a
 
+base_url: http://www.samanthaquinones.com/
 rss_path: feed.xml
 categories_path: categories.html
 calendar_path: calendar.html

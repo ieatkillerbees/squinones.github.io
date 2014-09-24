@@ -7,6 +7,7 @@ group: navigation
 
 	<ul id="event-calendar">
 		{% for event in site.data.events %}
+		<article>
 		<li>
 			<span class="event-date">{{ event.date | date: "%A, %-d %B, %Y" }} - {{ event.location }}</span><br />
 			<span class="event-name">
@@ -29,6 +30,7 @@ group: navigation
 			    <span class="event-description">{{ event.description }}</span><br />
 			{% endif %}
 			<hr />
-		</li>		
+		</li>	
+	</article>
 		{% endfor %}
 	</ul>

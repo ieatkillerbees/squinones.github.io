@@ -1,28 +1,28 @@
 ---
 layout: page
-tagline:
+title: Latest Posts
 ---
 
 {% for post in paginator.posts %}
-
 <article class="home">
-
-  <span class="post-date">
-    {% assign d = post.date | date: "%d" | plus:'0' %}
-    {{ post.date | date: "%B" }}
-    {% case d %}
-    {% when 1 or 21 or 31 %}{{ d }}st,
-    {% when 2 or 22 %}{{ d }}nd,
-    {% when 3 or 23 %}{{ d }}rd,
-    {% else %}{{ d }}th,
-    {% endcase %}
-    {{ post.date | date: "%Y" }}
-  </span>
-
-  <h1>
-    <a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-  </h1>
-
+  <h1 class="post-title"><a href="{{ site.BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h1>
+  <div class="post-header">
+    <span class="post-date"><i class="fa fa-clock-o"></i>
+      {% assign d = post.date | date: "%d" | plus:'0' %}
+      {{ post.date | date: "%B" }}
+      {% case d %}
+        {% when 1 or 21 or 31 %}{{ d }}st,
+        {% when 2 or 22 %}{{ d }}nd,
+        {% when 3 or 23 %}{{ d }}rd,
+        {% else %}{{ d }}th,
+      {% endcase %}
+      {{ post.date | date: "%Y" }}
+    </span>
+    <span class="comment-count">
+	  <i class="fa fa-bullhorn"></i>
+	  <a class="comment-link" href="{{ site.base_url }}{{ post.url }}#disqus_thread">0 Comments</a>
+    </span>
+  </div>
   <div>
     {% if post.fullview %}
     	{{ post.content }}
@@ -34,7 +34,7 @@ tagline:
 		{% else %}
     		{{ post.excerpt }}
     	{% endif %}
-		<a class="read-more" href="{{ site.BASE_PATH }}{{ post.url }}">read more</a>
+		(<a class="read-more" href="{{ site.base_url }}{{ post.url }}">Continue reading...</a>)
     {% endif %}
   </div>
   <hr />
@@ -42,9 +42,7 @@ tagline:
 {% endfor %}
 
 <hr/>
-
 <ul class="pager"> 
-
   {% if paginator.previous_page %}
   <li class="previous">
     {% if paginator.previous_page == 1 %}
@@ -74,3 +72,15 @@ tagline:
   {% endif %}
 
 </ul>
+ <script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'ieatkillerbees'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function () {
+        var s = document.createElement('script'); s.async = true;
+        s.type = 'text/javascript';
+        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+    }());
+ </script>

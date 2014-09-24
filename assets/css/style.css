@@ -41,10 +41,21 @@ a.nav-link i{
 a.nav-link:hover { color: #777 }
 
 #bio {
-	font-family: "Courier New", Courier, monospace;
-	font-size: 11px;
+	font-family: Consolas, monaco, monospace;
+	font-size: 12px;
 	margin: 0 auto;
 	margin-bottom: 10px;
+	color: #6B6025;
+}
+
+#bio span.author-name {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 18px;
+	color: #CEC590;
+}
+
+a.read-more {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 #contact-list li .fa,
@@ -98,6 +109,7 @@ article .share .gplus:hover {
 .page-header {
 	color: #e74c3c;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+	margin-bottom: 0px;
 }
 
 article{
@@ -109,28 +121,53 @@ article{
 	margin-bottom: 20px;
 }
 
-.post-date {
-	text-transform: uppercase;
+div.post-header {
+	font-variant: small-caps;
+	color: #A2A2A2;
+}
+
+div.post-header a {
+	color: #A2A2A2 !important;
+}
+
+span.post-date {
 	font-size: 14px;
-	letter-spacing: 3px;
+	font-variant: small-caps;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+div.page-header span.post-date {
+	color: #A2A2A2;
+	text-shadow: none;
+	margin-left: 1.5em;
+}
+
+.comment-count i {
+	margin-right: 4px;
+	margin-left: 10px;
 }
 
 article {
 	padding: 0 5% 0;
 }
 
+article p {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
 article.home div a, article.home pre a { color: #2c3e50; }
 article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
 article img { max-width: 100%; }
 
-h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }
+h1,h2,h3,h4,h5,h6 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; }
 article.home h1,
 article.home h2,
 article.home h3,
 article.home h4,
 article.home h5,
 article.home h6 {
-	font-family: 'Ubuntu', sans-serif;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	color: #f2756a;
 }
 
@@ -147,7 +184,13 @@ article.home h4 a:hover {
 	color: #e74c3c;
 }
 
-article.home div a.read-more {
+article.home h1.post-title {
+	margin-bottom: 0px;
+	font-variant: small-caps;
+	font-size: 28px;
+}
+
+article.home div a {
 	color: #f2756a;
 }
 
@@ -205,6 +248,7 @@ footer {
 	min-height: 0;
 	padding: 0;
 	background-color: #ffffff;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 #navbar ul {
@@ -231,6 +275,7 @@ ul.dropdown-menu>li>a>i.fa {
 #event-calendar li {
 	list-style-type: none;
 	margin-bottom: 15px;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
 #event-calendar span.event-date {
@@ -252,6 +297,14 @@ ul.dropdown-menu>li>a>i.fa {
 	font-size: 0.9em;
 	margin-left: 2em;
 	display: inline-block;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+div#about-page {
+	margin-left: 2em;
+}
+div#about-page p, li {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 #event-calendar hr {

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: php|tek 2014 Retrospective
+title: php[tek] 2014 Retrospective
 date: 2014-05-26 03:35:46.000000000 -04:00
 categories:
 - Community
@@ -139,8 +139,8 @@ author:
   first_name: Samantha
   last_name: Quiñones
 ---
-##php|tek: The Hottest Thing in Chicago (that's not a giant metal space bean)
-So, php|tek has come and gone and everyone is hopefully starting to catch up on their sleep. This was my second visit to tek and while it was delightfully familiar, the conference had an entirely different energy compared to last year. From what I hear, this was the largest tek yet, and maybe it was the increased attendance that is responsible for the very different feel. During lunch breaks, the large central atrium at the venue was totally abuzz and each table was packed and lively with conversation. The atrium was pretty well packed, in fact, well in to the night with attendees talking and playing games. Not only was the conference well attended, but I understand that roughly half of the attendees were coming to tek for the very first time. In keeping with the conference's Star Trek/SciFi theme, each attendee received a color-coded shirt: yellow for speakers (Captains in the chromatic language of the original Star Trek series), blue for repeat attendees, and red for first-timers. The venue was very, very well represented with red shirts!
+
+So, php[tek] has come and gone and everyone is hopefully starting to catch up on their sleep. This was my second visit to tek and while it was delightfully familiar, the conference had an entirely different energy compared to last year. From what I hear, this was the largest tek yet, and maybe it was the increased attendance that is responsible for the very different feel. During lunch breaks, the large central atrium at the venue was totally abuzz and each table was packed and lively with conversation. The atrium was pretty well packed, in fact, well in to the night with attendees talking and playing games. Not only was the conference well attended, but I understand that roughly half of the attendees were coming to tek for the very first time. In keeping with the conference's Star Trek/SciFi theme, each attendee received a color-coded shirt: yellow for speakers (Captains in the chromatic language of the original Star Trek series), blue for repeat attendees, and red for first-timers. The venue was very, very well represented with red shirts!
 
 ![T-Shirts! (credit: Tim Lytle, @tjlytle)]({{ site.url }}/assets/BoMTi_YCIAATOHR.jpg)
 
