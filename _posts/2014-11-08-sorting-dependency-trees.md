@@ -60,7 +60,7 @@ We want to run our `MakeCookies` task, but before we can do that, we need to mak
 
 If we draw it out, we come up with a pretty simple graph. Specificially, this is a Directed Acyclic Graph, so called because it is comprised of nodes that are connected by edges (directed), without any loops (acyclic).
 
-<img class="image-center" alt="dag" src="http://i.imgur.com/sBoqA71.png" />
+<img class="center" alt="dag" src="http://i.imgur.com/sBoqA71.png" />
 
 Viewing the graph in this way lets us see pretty clearly how our task's dependencies work out. Clearly we need to make sure that no task runs before its dependencies, but how do we figure out the best order to execute them?
 
