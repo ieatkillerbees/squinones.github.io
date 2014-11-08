@@ -100,7 +100,7 @@ article .share .gplus:hover {
 	padding-bottom: 10px;
 }
 
-#twitter-widget:
+/*#twitter-widget:*/
 
 #conference-schedule {
 	padding-right: 50px;
@@ -197,6 +197,12 @@ article.home div a {
 .author .author-image {
   float: left;
   margin-right: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer {
@@ -309,6 +315,30 @@ div#about-page p, li {
 
 #event-calendar hr {
 	width: 60%;
+}
+
+.highlight {
+    margin: 2em;
+}
+
+.vignette {
+    -webkit-box-shadow: inset 0px 0px 85px rgba(255, 255, 255, 1);
+    -moz-box-shadow:    inset 0px 0px 85px rgb(255, 255, 255, 1);
+    box-shadow:         inset 0px 0px 85px rgba(255, 255, 255, 1);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    line-height: 0;         /* ensure no space between bottom */
+
+    display: inline-block;  /* don't go wider than image */
+}
+
+.vignette img {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: relative;
+    z-index: -1;            /* position beneath */
 }
 
 footer p {
