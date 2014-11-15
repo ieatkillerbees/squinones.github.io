@@ -10,6 +10,8 @@ tags:
 title: php[world] Retrospective
 ---
 
+<img class="center" src="http://world.phparch.com/wp-content/themes/world2014/images/logo.png" />
+
 ### From the folks who brought you...
 
 The folks at [PHP Architect](http://www.phparch.net) have a well-deserved reputation for hosting amazing developer conferences. There are many PHP devs who consider php[tek] the one truly indispensable event of the year, and with good reason. With that in mind, it's easy to understand the palpable wave of excitement that washed over the PHP world when [Eli and crew](http://www.phparch.com/about/) announced php[world] at tek 14. 
