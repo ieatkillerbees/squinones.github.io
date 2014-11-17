@@ -119,9 +119,9 @@ function topo_sort(array $graph)
 	// Move any non-edged nodes to the unsorted list. 
 	// Nodes without edges should be run before any other
 	// nodes, in no particular order.
-	for ($i=count($contexts)-1; $i>=0; $i--) {
-		if (!is_array($contexts[$i])) {			// Non-arrays are unedged vertices
-			array_push($unsorted, array_splice($contexts, $i, 1)[0]);
+	for ($i=count($graph)-1; $i>=0; $i--) {
+		if (!is_array($graph[$i])) {			// Non-arrays are unedged vertices
+			array_push($unsorted, array_splice($graph, $i, 1)[0]);
 		}
 	}
 
@@ -133,11 +133,11 @@ function topo_sort(array $graph)
 		array_push($sorted, $n);
 
 		// loop backwards through remaining contexts
-		for ($i=count($contexts)-1; $i>=0; $i--) {
+		for ($i=count($graph)-1; $i>=0; $i--) {
 			// move nodes whose incoming edge has been moved to sorted 
 			// to the unsorted list
-			if(is_array($contexts[$i]) && $contexts[$i][0] === $n) {
-				array_push($unsorted, array_splice($contexts, $i, 1)[0][1]);
+			if(is_array($graph[$i]) && $graph[$i][0] === $n) {
+				array_push($unsorted, array_splice($graph, $i, 1)[0][1]);
 			}
 		}
 	}
