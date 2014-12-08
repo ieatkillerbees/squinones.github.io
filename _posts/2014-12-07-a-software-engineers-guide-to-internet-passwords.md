@@ -122,11 +122,11 @@ Mostly, exercise common sense. Be careful who you give sensitive information to.
 Always remember that password security is your responsibility just as much as it is the responsibility of the services you use. Use strong passwords and keep them secure. Don't reuse passwords across sites. Avoid repeating characters or words. Don't use common keyboard patterns (e.g. asdfghjkl, 1qazXSW@, etc). Avoid using real names of people and pets you know or personal information someone might guess about you. Never write passwords down in an unsafe place (monitor post-its, I'm looking at you!), and never share your passwords with others. 
 
 ###What do I do?
-I currently own 224 password-protected accounts. The majority of those passwords are randomly-generated strings that are 20 or more characters long. I manage that using a password management tool (I use [LastPass](http://lastpass.com)). I have a single "master" passphrase that I have committed to memory (it's a ~26 characters long, basically a nonsense phrase that I can remember but that would be difficult to guess). 
+I currently own 224 password-protected accounts. The majority of those passwords are randomly-generated strings that are 20 or more characters long. I manage that using a password management tool (I use [LastPass](http://lastpass.com)). I have a single "master" passphrase that I have committed to memory (it's ~26 characters long, basically a nonsense phrase that I can remember but that would be difficult to guess). 
 
 LastPass has a built-in random password generator that I use to create random passwords. When I want to access a service like Facebook, I use my master password to unlock my password "vault" and log in with the password I have stored.
 
-There are a few accounts, like my email and my github, which I often need to use from computers other than my own. For these accounts, I have somewhat weaker passwords that I can more easily to remember. To make up for that, though, I use something called multi-factor authentication.
+There are a few accounts, like my email and my github, which I often need to use from computers other than my own. For these accounts, I have somewhat weaker passwords that I can more easily remember. To make up for that, though, I use something called multi-factor authentication.
 
 ####Multi-Factor Authentication
 When you think about the problem of identifying someone, you realize there are different types of information you can use for that purpose. You can be identified by what you _are_ (your appearance, DNA, fingerprints), what you _know_ (a password, your mother's maiden name), or what you _have_ (an ID card).
