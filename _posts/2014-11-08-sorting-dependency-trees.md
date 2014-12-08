@@ -56,9 +56,9 @@ class PreheatOven implements TaskInterface {
 ---
 
 ### Drawing the Graph
-We want to run our `MakeCookies` task, but before we can do that, we need to make sure its dependencies have run. Likewise we have to be sure that all of the dependecies' dependencies have run. 
+We want to run our `MakeCookies` task, but before we can do that, we need to make sure its dependencies have run. Likewise we have to be sure that all of the dependencies' dependencies have run. 
 
-If we draw it out, we come up with a pretty simple graph. Specificially, this is a Directed Acyclic Graph, so called because it is comprised of nodes that are connected by edges (directed), without any loops (acyclic).
+If we draw it out, we come up with a pretty simple graph. Specifically, this is a Directed Acyclic Graph, so called because it is comprised of nodes that are connected by edges (directed), without any loops (acyclic).
 
 <img class="center" alt="dag" src="http://i.imgur.com/sBoqA71.png" />
 
