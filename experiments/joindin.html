@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+    body {
+        background-color: #000000;
+    }
+    label {
+        color: #bce8f1;
+        padding-right: 10px;
+    }
+    text {
+        font: 10px sans-serif;
+    }
+
+</style>
+<body>
+    <div id="input"><label for="username">Joind.in Username</label><input id="username" type="text" /> <button id="go">Go!</button></div>
+    <div id="cloud"></div>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js"></script>
+    <script src="js/d3.layout.cloud.js"></script>
+    <script>
+
+        var width = document.body.clientWidth;
+        var height = window.innerHeight - document.querySelector('body').clientHeight - 40;
+        var colors = d3.scale.category20b();
+
+        function calculateCloud(data) {
+            d3.layout.cloud()
+                    .size([width, height])
+                    .words(data)
+                    .rotate(function() { return ~~(Math.random()*2) * 90;}) // 0 or 90deg
+                    .fontSize(function(d) { return d.size * 24; })
+                    .on('end', drawCloud)
+                    .start();
+        }
+        function drawCloud(words) {
+            d3.select('svg').remove();
+            var svg = d3.select('#cloud').append('svg')
+                    .attr('width', width)
+                    .attr('height', height)
+                    .append('g')
+                    .attr('transform', 'translate('+width/2+', '+height/2+')');
+            var vis = svg.selectAll('text').data(words);
+
+            vis.enter().append('text')
+                    .style('font-size', function(d) { return d.size + 'px'; })
+                    .style('font-family', function(d) { return d.font; })
+                    .style('fill', function(d, i) { return colors(i); })
+                    .attr('text-anchor', 'middle')
+                    .attr('transform', function(d) {
+                        return 'translate(' + [d.x, d.y] + ')rotate(' + d.rotate + ')';
+                    })
+                    .text(function(d) { return d.text; });
+        }
+        function transform(data) {
+            var transformed = [];
+            data.forEach(function (element) {
+                transformed.push({text: element.term, size: element.tf})
+            });
+            return transformed;
+        }
+
+        $('button#go').on('click', function() {
+            d3.json('http://bouncy.tembies.com:4242/' + $('input#username').val(), function(error, data) {
+                calculateCloud(transform(data));
+            });
+        });
+
+        $("input#username").keyup(function(event){
+            if(event.keyCode == 13){
+                $("button#go").click();
+            }
+        });
+
+    </script>
+</body>
