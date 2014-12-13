@@ -12,10 +12,17 @@
     text {
         font: 10px sans-serif;
     }
+    #error {
+        color: red;
+    }
+    button:disabled {
+        color: lightgray;
+    }
 
 </style>
 <body>
     <div id="input"><label for="username">Joind.in Username</label><input id="username" type="text" /> <button id="go">Go!</button></div>
+    <div id="error"></div>
     <div id="cloud"></div>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.5.2/d3.min.js"></script>
@@ -53,6 +60,9 @@
                         return 'translate(' + [d.x, d.y] + ')rotate(' + d.rotate + ')';
                     })
                     .text(function(d) { return d.text; });
+
+            $("button#go").prop('disabled', false);
+            $("button#go").text("Go!");
         }
         function transform(data) {
             var transformed = [];
@@ -63,7 +73,16 @@
         }
 
         $('button#go').on('click', function() {
+            $(this).text("Please wait...");
+            $(this).prop('disabled', true);
+            $("#error").text('');
             d3.json('http://bouncy.tembies.com:4242/' + $('input#username').val(), function(error, data) {
+                if (error) {
+                    $("button#go").prop('disabled', false);
+                    $("button#go").text("Go!");
+                    $("#error").text(error.statusText);
+                    return;
+                }
                 calculateCloud(transform(data));
             });
         });
