@@ -12,19 +12,6 @@ tags:
 status: publish
 type: post
 published: true
-meta:
-  _edit_last: '1'
-  _wp_old_slug: were-all-a-little-nuts
-  enclosure: |
-    http://funkatron.com/content/Open-Sourcing-Mental-Illness_tek13.mp3
-    28977237
-    audio/mpeg
-author:
-  login: samantha
-  email: samantha@tembies.com
-  display_name: Samantha Quiñones
-  first_name: Samantha
-  last_name: Quiñones
 ---
 <p><a href="http://www.tembies.com/wp-content/uploads/2013/05/108664273_4f3fbca066_z1-e1368985485374.jpg"><img class=" wp-image-24 alignright" alt="108664273_4f3fbca066_z" src="assets/108664273_4f3fbca066_z1-e1368985485374-300x193.jpg" width="180" height="116" /></a>I really wasn't sure what to expect as I boarded a plane to Chicago last week to attend <a title="php[tek] 13" href="http://tek.phparch.com" target="_blank">php[tek]</a> 13. Before setting out, I studied the schedule in detail and carefully planned out my track. I balanced my itinerary between talks that were relevant to my current projects and ones that just seemed interesting and fun. Though I've been writing code for more than a quarter-century, except for a brief period in the 90s MUD and MUSH communities, I have never made any effort to take part in the wider developer community. It's only been 18 months since I attended my very first user group. I have honestly never felt like I had anything to contribute. I never felt like I belonged. And as I settled in to seat 9D, I was a little bit terrified.</p>
 <p>I'd love to say that the reasons for my self-imposed isolation have been varied and complicated, but that'd be a big fat lie. I just don't feel worthy, and I never have. My first "real" job in technology was a contract gig working on a custom database in the late 1990s. Through my work in the MUSH world, I had a good deal of experience with data management and I'd even worked with early versions of MySQL. After I'd transitioned in to a permanent position, my boss at that job told me that he had hired be because my CV was so broad even though I was very young. He thought that I'd be eager and quick to learn new things. Judging by my performance reviews, I don't think he felt like he misjudged.</p>
