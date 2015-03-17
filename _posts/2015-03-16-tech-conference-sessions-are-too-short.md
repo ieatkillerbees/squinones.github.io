@@ -13,7 +13,7 @@ The majority of sessions at the conferences I attend are of the 30-50 minute spe
 
 Aside from what I'll call presentation sessions (for lack of a better term), a lot of conferences offer a handful of tutorial sessions in the 3-4 hour range. These sessions are much more like a traditional classroom with an instructor leading a  group through a series of exercises. Tutorials are an amazing value for attendees, offering training at a price that would be hard to find in another venue. I've given a few of these and while I do find them physically draining, I enjoy them enough to keep signing up for them.
 
-Is it possible this dual-format system is limiting what we can actually get out of conferences? At (Midwest PHP)[http://mwphp.org] this past weekend, I had the chance to join a few good discussions on the topic. One idea that kept coming up was to sprinkle longer sessions, around two hours, in to the conference schedule.
+Is it possible this dual-format system is limiting what we can actually get out of conferences? At [Midwest PHP](http://mwphp.org) this past weekend, I had the chance to join a few good discussions on the topic. One idea that kept coming up was to sprinkle longer sessions, around two hours, in to the conference schedule.
 
 What would we do with two-hour sessions? Two big things come to mind. First, it's a viable timespan for highly detailed technical sessions that don't involve a lot of hands-on interaction or are narrow enough in scope that they can't fill a four-hour session. We've all sat through -- and many of us have given -- technical talks that were rushed, or that glossed over or omitted important elements because of time constraints. A two-hour session would be a better fit for these kinds of topics.
 
