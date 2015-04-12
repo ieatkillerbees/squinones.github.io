@@ -2,12 +2,11 @@
 layout: post
 description: Is it possible this dual-format system is limiting what we can actually get out of conferences?
 category: community
+comments: true
 tags:
   - speaking
 ---
-#Tech Conference Sessions are Too Short
-
-Hear me out. 
+Hear me out.
 
 The majority of sessions at the conferences I attend are of the 30-50 minute speaker-and-slides variety. Now, I love these kinds of sessions, both as an attendee, and as a speaker. It's a good amount of time to deliver a fair-to-middle resolution look at a topic. I like to give and audience enough information to begin to intelligently researching a topic on their own. From the presenter side of things, a one hour slot isn't too overwhelming to prepare and not particularly taxing once you have a chance to break in your voice a bit.
 

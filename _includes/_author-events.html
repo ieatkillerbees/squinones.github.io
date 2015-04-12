@@ -1,0 +1,13 @@
+<div class="event-list-wrapper" itemscope itemtype="http://schema.org/Event">
+    <h3>Upcoming Events</h3>
+    <ul class="event-list">
+        {% for event in site.data.events %}
+        <li>
+            <h4 itemprop="name">{{event.name}}</h4>
+            <p class="event-date"><span itemprop="startDate">{{event.start_date}}</span>{% if event.end_date %}&mdash;<span itemprop="endDate">{{event.end_date}}</span>{% endif %}</p>
+            <p class="event-location" itemprop="location">{{ event.location }}</p>
+            <p class="event-link" itemprop="url"><a href="{{ event.url }}">{{event.url}}</a></p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

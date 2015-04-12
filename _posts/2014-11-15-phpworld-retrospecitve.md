@@ -10,7 +10,7 @@ tags:
 title: php[world] Retrospective
 ---
 
-<img class="center" src="http://world.phparch.com/wp-content/themes/world2014/images/logo.png" />
+<img class="center" src="http://world2014.phparch.com/wp-content/themes/world2014/images/logo.png" />
 
 ### From the folks who brought you...
 

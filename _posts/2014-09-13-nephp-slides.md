@@ -1,10 +1,8 @@
 ---
 layout: post
-published: true
 category: community
-tags: speaking, slides, nephp, rest, api, php
+tags: [speaking, slides, nephp, rest, api, php]
 title: Northeast PHP Slides
-fullview: false
 ---
 
 Here are the updated slides from my presentation at [Northeast PHP](http://northeastphp.org).

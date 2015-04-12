@@ -1,16 +1,9 @@
 ---
 layout: post
 title: Sorting Dependency Trees
-categories:
-- Development
-tags:
-- algorithms
-- graphs
-- sorting
-status: publish
-type: post
-published: true
-description: When we have a number of things to do with certain things needing to be done before others, how can we calculate the right order so that nothing gets done before it's ready to be done? The answer lies in graph theory and a very simple sort.
+category: development
+tags: [algorithms, graphs, sorting]
+excerpt: When we have a number of things to do with certain things needing to be done before others, how can we calculate the right order so that nothing gets done before it's ready to be done? The answer lies in graph theory and a very simple sort.
 ---
 
 ### The Problem

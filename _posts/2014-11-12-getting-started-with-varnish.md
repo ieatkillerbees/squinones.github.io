@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Slides - Getting Started with Varnish
-description: The slide deck for my workshop, Getting Started with Varnish, given on November 11th, 2014 at PHP World 2014
-categories:
-- Community
+excerpt: The slide deck for my workshop, Getting Started with Varnish, given on November 11th, 2014 at PHP World 2014
+category: community
 tags:
 - varnish
 - speaking

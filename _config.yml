@@ -1,41 +1,68 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+# Site wide configuration
 
-paginate: 10 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
+title:            Samantha Quiñones
+locale:           en_US
+url:
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:year/:month/:day/:title.html
+markdown:    kramdown
 highlighter: pygments
-markdown: kramdown
-
+sass:
+  sass_dir: _sass
+  style: compressed
 gems:
   - jekyll-sitemap
+
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
 
 defaults:
   -
     scope:
-      path: "" # empty string for all files
-    values:
-      title: Samantha Quiñones
-  -
-    scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
       comments: true
 
-description: Samantha Quiñones' Blog
-author:
+# Site owner
+owner:
   name: Samantha Quiñones
-  github: squinones
+  avatar: smq_headshot_300square.jpg
+  bio: "Polyglot hacker, writer, musician, speaker. Principal engineer @AOL."
+  email: #nope
+  disqus-shortname: ieatkillerbees
   twitter: ieatkillerbees
+  facebook: samantha.quinones.tembies
+  google:
+    plus: SamanthaQuiñonesTembies
+    analytics: UA-39817287-1
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: squinones
+  stackoverflow: #http://stackoverflow.com/users/123456/username
   linkedin: samanthaquinones
-  bio: PHP & Python, & JS hacker, principal engineer @AOL
-  email_md5: 24368af16c4b0946ece77da839b7b53a
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
 
-base_url: http://www.samanthaquinones.com/
-rss_path: feed.xml
-categories_path: categories.html
-calendar_path: calendar.html
-about_path: about.html
-tags_path: tags.html
-
-BASE_PATH:
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

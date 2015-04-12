@@ -1,0 +1,59 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+    {% include _head.html %}
+</head>
+
+<body class="page">
+
+{% include _browser-upgrade.html %}
+
+{% include _navigation.html %}
+
+{% if page.image.feature %}
+<div class="image-wrap">
+    <img src=
+                 {% if page.image.feature contains 'http' %}
+    "{{ page.image.feature }}"
+    {% else %}
+    "{{ site.url }}/images/{{ page.image.feature }}"
+    {% endif %}
+    alt="{{ page.title }} feature image">
+    {% if page.image.credit %}
+    <span class="image-credit">Photo Credit: <a href="{{ page.image.creditlink }}">{{ page.image.credit }}</a></span>
+    {% endif %}
+</div><!-- /.image-wrap -->
+{% endif %}
+
+<div id="main" role="main">
+    <div class="article-author-side">
+        {% include _author-bio.html %}
+        {% include _author-events.html %}
+    </div>
+    <div class="article-author-events">
+    </div>
+    <article class="page">
+        <h1>{{ page.title }}</h1>
+        <form class="contact" accept-charset="UTF-8" action="https://formkeep.com/f/3cd4944b0b3f" method="POST">
+            <input type="hidden" name="utf8" value="✓">
+            <label for="name">What's your name?</label><input type="text" name="name" placeholder="Your Name" required>
+            <label for="email">Where can I contact you?</label><input type="email" name="email" placeholder="Your Email" required>
+            <label for="comment">What's on your mind?</label><textarea name="comment" required></textarea>
+            <button type="submit"><i class="fa fa-fw fa-envelope-o"></i> Submit</button>
+        </form>
+    </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+    <footer>
+        {% include _footer.html %}
+    </footer>
+</div><!-- /.footer-wrap -->
+
+{% include _scripts.html %}
+
+</body>
+</html>

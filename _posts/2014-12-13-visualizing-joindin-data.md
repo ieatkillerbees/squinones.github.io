@@ -14,7 +14,7 @@ These word clouds visualize the word frequency from the comments a joind.in user
 Here's mine:
 <img class="center" src="http://i.imgur.com/PMf5ukK.png" />
 
-[You can play with the tool here.](http://www.samanthaquinones.com/experiments/joindin.html).
+[You can play with the tool here.](/experiments/joindin.html).
 
 Big thanks to [PubNub](http://www.pubnub.com), Jason Davies and his [d3-cloud](https://github.com/jasondavies/d3-cloud),
 [Lorna Jane Mitchell](http://www.lornajane.net/) and the [Joind.in team](http://joind.in).

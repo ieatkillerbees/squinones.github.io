@@ -1,0 +1,37 @@
+- name: Demystifying the REST API
+  about: Are you confused by REST APIs? Can't tell a PUT from a POST? No idea what a non-idempotent operation is? Despite their ubiquity, the details of what makes an API RESTful are often lost even on experienced developers. We'll cover the basics of the HTTP protocol that drives most REST services, break down the lingo, and clear up some misconceptions about this powerful and popular methodology.
+  timeRequired: 60 minutes
+  slides: http://www.slideshare.net/samanthaquinonestembies/demystifying-the-rest-api
+  video: https://youtu.be/IkPkVx-lI5A
+  givenAt: [SkiPHP 2014, Peers Conference 2014, Northeast PHP, Midwest PHP 2015]
+
+- name: Designing Modern Service Architectures
+  about: Cloud computing is becoming the primary way large web applications are deployed. The flexibility of these platforms gives us the opportunity to break out of the usual scaling patterns and deliver power precisely where and when we need it. Through practical examples, we'll explore a modern service-oriented application and discover strategies and tools that will help you make the most of the cloud.
+  timeRequired: 45-60 minutes
+  slides: https://speakerdeck.com/squinones/designing-modern-service-architectures
+  givenAt: [SkiPHP 2014, ZendCon 2014]
+
+- name: Getting Started with Varnish
+  about: Varnish is attracting an enormous amount of attention in the world of digital media lately and it absolutely has the capacity to revolutionize the way we deliver content. While very simple to install, Varnish’s real capacity lies in the powerful configuration language, VCL. In this tutorial, we’ll walk through the process of installing and configuring Varnish, explore the included VCL and the shared VCL repositories. Finally, we’ll dive in to the VCL itself and learn how to develop custom configurations that handle real-world use cases.
+  slides: https://speakerdeck.com/squinones/getting-started-with-varnish
+  timeRequired: 3 hours
+  givenAt: ["php[world] 2014", "SunshinePHP 2015"]
+
+- name: "Drinking from the Firehose: Real-Time Metrics"
+  about: To understand an application’s performance, first you have to know what to measure. That’s the easy part. How do you take those measurements? Store them? Analyze them? Get them to the people who need them? Well, that’s where things get complicated, especially in the  high-traffic distributed systems of the modern web! Like careful scientists, we must observe our subjects without altering them, and we must report our findings quickly so that we have the data necessary to make smart choices about the health and growth of the system. Let’s explore the lessons learned by engineers at one of the world’s top web companies in their quest to find meaning at 5 MB/s. We’ll discuss the tools and techniques that enable the collection, indexing, and analysis of billions or more datapoints each hour, and learn how these same approaches can empower your applications and your business, no matter the scale.
+  timeRequired: 60 minutes
+  givenAt: [DCPHP]
+
+- name: Hacking the Human Interface
+  timeRequired: 45-60 minutes
+  about: Humans are the most complex systems we work with on a regular basis. That complexity produces a huge variety of behaviors that can seem entirely unpredictable on the surface. Thankfully we have a powerful tool in our arsenal that we can use to understand and share the experiences of our fellow humans. Let's talk about how we can marshal that often-underutilized ability to unlock the true potential of human relationships, mediate conflict, inspire others, and forge a stronger connection with the world around us.
+
+- name: Supercharging Content Delivery with Varnish
+  timeRequired: 60 minutes
+  about: You have amazing content and you want to get it to your users as fast as possible. In today’s industry, milliseconds matter and slow websites will never keep up. You can use a CDN but they are expensive, make you dependant on a third party to deliver your content, and can be notoriously inflexible. Enter Varnish, a powerful, open-source caching reverse proxy that lives in your network and lets you take control of how your content is managed and delivered. We’ll discuss how to install and configure Varnish in front of a typical web application, how to handle sessions and security, and how you can customize Varnish to your unique needs.  This session will teach you how Varnish can help you give your users a better experience while saving your company and clients money at the same time.
+  givenAt: [Daycamp for Developers]
+
+- name: "TDD: Team-Driven Development"
+  timeRequired: 45-60 minutes
+  about: Developing software as part of a team introduces a host of challenges. A strong, motivated development team working together can marshal the strengths and specialities of each of its members to create something much larger than the sum of its parts. Teams that don’t work together can drain resources and make the workplace a miserable place to spend the day. The fact is, strong teams need strong leaders, and strong leadership is something that each of us can cultivate within ourselves. No matter your experience level or seniority, if you work as part of a team, you have the capacity to help lead your colleagues toward success. We’ll discuss strategies for dealing with conflict, ideas on how to become stronger communicators, and ways to help you and your teammates get the best from one another.
+  givenAt: [SunshinePHP 2015]

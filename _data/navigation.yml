@@ -1,0 +1,13 @@
+# Site navigation links
+
+- title: About
+  url: /about/
+
+- title: Articles
+  url: /posts/
+
+- title: Talks
+  url: /talks/
+
+- title: Contact
+  url: /contact/
