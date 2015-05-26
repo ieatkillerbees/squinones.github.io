@@ -11,15 +11,15 @@
 - name: "Laracon 2015"
   location: "Louisville, KY, USA"
   url: http://laracon.us
-  start_date: August 11th
+  start_date: Aug 11th
   end_date: 12th, 2015
 - name: "Pacific Northwest PHP"
   location: "Seattle, WA, USA"
   url: http://pnwphp.org
-  start_date: September 11th
+  start_date: Sep 11th
   end_date: 12th, 2015
 - name: "Bulgaria PHP"
   location: "Sofia, Bulgaria"
   url: http://bgphp.org
-  start_date: September 25th
+  start_date: Sep 25th
   end_date: 27th, 2015
