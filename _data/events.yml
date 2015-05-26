@@ -1,11 +1,25 @@
-- name: "php[tek] 2015"
-  location: "Chicago, IL"
-  url: http://tek.phparch.net
-  start_date: May 18th
-  end_date: 22nd, 2015
+# - name: "php[tek] 2015"
+#   location: "Chicago, IL"
+#   url: http://tek.phparch.net
+#   start_date: May 18th
+#   end_date: 22nd, 2015
 - name: "Mobile+Web Devconf"
-  location: "San Francisco, CA"
+  location: "San Francisco, CA, USA"
   url: http://mobilewebdevconference.com
   start_date: July 14th
   end_date: 16th, 2015
-
+- name: "Laracon 2015"
+  location: "Louisville, KY, USA"
+  url: http://laracon.us
+  start_date: August 11th
+  end_date: 12th, 2015
+- name: "Pacific Northwest PHP"
+  location: "Seattle, WA, USA"
+  url: http://pnwphp.org
+  start_date: September 11th
+  end_date: 12th, 2015
+- name: "Bulgaria PHP"
+  location: "Sofia, Bulgaria"
+  url: http://bgphp.org
+  start_date: September 25th
+  end_date: 27th, 2015
