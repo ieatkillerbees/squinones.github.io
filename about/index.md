@@ -7,7 +7,7 @@ share: false
 comments: false
 ---
 
-<img src="/images/bmorephp_cropped.jpg" align="right" />I am a polyglot hacker, writer, musician and public speaker. A recognized expert on high-performance system design and
+<img src="/images/bmorephp_cropped.jpg" align="right" />I am a polyglot hacker, writer, and public speaker. A recognized expert on high-performance system design and
 architecture, I've built software and led teams for some of the biggest names technology.
 
 I frequently speak at technology conferences around the world, and I'm always excited for the chance to venture in to
