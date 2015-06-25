@@ -3,6 +3,10 @@
 #   url: http://tek.phparch.net
 #   start_date: May 18th
 #   end_date: 22nd, 2015
+- name: "Baltimore Women in Computing - Making Your Voice Heard"
+  locational: "Baltimore, MD, USA"
+  url: http://www.meetup.com/Baltimore-Women-in-Computing-Meetup/events/223093555/
+  start_date: June 23rd, 2015
 - name: "Mobile+Web Devconf"
   location: "San Francisco, CA, USA"
   url: http://mobilewebdevconference.com
