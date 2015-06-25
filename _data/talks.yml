@@ -20,7 +20,7 @@
 - name: "Drinking from the Firehose: Real-Time Metrics"
   about: To understand an application’s performance, first you have to know what to measure. That’s the easy part. How do you take those measurements? Store them? Analyze them? Get them to the people who need them? Well, that’s where things get complicated, especially in the  high-traffic distributed systems of the modern web! Like careful scientists, we must observe our subjects without altering them, and we must report our findings quickly so that we have the data necessary to make smart choices about the health and growth of the system. Let’s explore the lessons learned by engineers at one of the world’s top web companies in their quest to find meaning at 5 MB/s. We’ll discuss the tools and techniques that enable the collection, indexing, and analysis of billions or more datapoints each hour, and learn how these same approaches can empower your applications and your business, no matter the scale.
   timeRequired: 60 minutes
-  givenAt: [DCPHP]
+  givenAt: ["php[tek] 2015"]
 
 - name: Hacking the Human Interface
   timeRequired: 45-60 minutes

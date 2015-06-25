@@ -3,10 +3,10 @@
 #   url: http://tek.phparch.net
 #   start_date: May 18th
 #   end_date: 22nd, 2015
-- name: "Baltimore Women in Computing"
-  locational: "Baltimore, MD, USA"
-  url: http://bit.ly/1fD7lS9
-  start_date: June 23rd, 2015
+#- name: "Baltimore Women in Computing"
+#  locational: "Baltimore, MD, USA"
+#  url: http://bit.ly/1fD7lS9
+#  start_date: June 23rd, 2015
 - name: "Mobile+Web Devconf"
   location: "San Francisco, CA, USA"
   url: http://mobilewebdevconference.com
