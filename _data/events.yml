@@ -7,11 +7,11 @@
 #  locational: "Baltimore, MD, USA"
 #  url: http://bit.ly/1fD7lS9
 #  start_date: June 23rd, 2015
-- name: "Mobile+Web Devconf"
-  location: "San Francisco, CA, USA"
-  url: http://mobilewebdevconference.com
-  start_date: July 14th
-  end_date: 16th, 2015
+#- name: "Mobile+Web Devconf"
+#  location: "San Francisco, CA, USA"
+#  url: http://mobilewebdevconference.com
+#  start_date: July 14th
+#  end_date: 16th, 2015
 - name: "Laracon 2015"
   location: "Louisville, KY, USA"
   url: http://laracon.us
@@ -32,3 +32,13 @@
   url: http://bgphp.org
   start_date: Sep 25th
   end_date: 27th, 2015
+- name: "Velocity"
+  location: "Amsterdam, The Netherlands"
+  url: http://velocityconf.com/devops-web-performance-eu-2015
+  start_date: Oct 28th
+  end_date: 30th, 2015
+- name: "php[world] 2015"
+  location: "Washington, DC"
+  url: http://world.phparch.com
+  start_date: Nov 16th
+  end_date: 20th, 2015
