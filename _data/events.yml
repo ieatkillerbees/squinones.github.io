@@ -12,11 +12,11 @@
 #  url: http://mobilewebdevconference.com
 #  start_date: July 14th
 #  end_date: 16th, 2015
-- name: "Laracon 2015"
-  location: "Louisville, KY, USA"
-  url: http://laracon.us
-  start_date: Aug 11th
-  end_date: 12th, 2015
+#- name: "Laracon 2015"
+#  location: "Louisville, KY, USA"
+#  url: http://laracon.us
+#  start_date: Aug 11th
+#  end_date: 12th, 2015
 - name: "Northeast PHP"
   location: "Boston, MA, USA"
   url: http://2015.northeastphp.org/
@@ -37,8 +37,18 @@
   url: http://velocityconf.com/devops-web-performance-eu-2015
   start_date: Oct 28th
   end_date: 30th, 2015
+- name: "ZendCon 2015"
+  location: "Las Vegas, NV, USA"
+  url: "http://zendcon.com"
+  start_date: Oct 19th
+  end_date: 22nd, 2015"
+- name: "True North PHP"
+  location: "Toronto, ON, Canada"
+  url: "http://truenorthphp.ca"
+  start_date: "Nov 5th"
+  end_date: "7th, 2015'
 - name: "php[world] 2015"
-  location: "Washington, DC"
+  location: "Washington, DC, USA"
   url: http://world.phparch.com
   start_date: Nov 16th
   end_date: 20th, 2015
