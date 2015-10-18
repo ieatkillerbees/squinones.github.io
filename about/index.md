@@ -17,7 +17,7 @@ software and leading engineering teams for some of the biggest names technology,
 * 2015 - recipient, DCFemTech Powerful Women Programmer award
 
 ## Want me to speak at your event?
-I frequently speak at technology conferences and event around the world, and I'm always excited for the chance to 
+I frequently speak at technology conferences and events around the world, and I'm always excited for the chance to 
 venture in to new communities and talk about the kinds of personal and technical challenges we face. I am available to 
 speak at both community and corporate events. Many of my talks are listed on the [talks](/talks) page, and I am generally 
 open to creating custom presentations for your needs. Please [contact me](/contact-me) for more information on speaking
