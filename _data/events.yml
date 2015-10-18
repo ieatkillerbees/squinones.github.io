@@ -36,10 +36,10 @@
   location: "Las Vegas, NV, USA"
   url: "http://zendcon.com"
   start_date: Oct 19th
-  end_date: 22nd, 2015"
+  end_date: 22nd, 2015
 - name: "Velocity"
   location: "Amsterdam, The Netherlands"
-  url: http://velocityconf.com/devops-web-performance-eu-2015
+  url: "http://velocityconf.com/devops-web-performance-eu-2015"
   start_date: Oct 28th
   end_date: 30th, 2015
 - name: "True North PHP"
