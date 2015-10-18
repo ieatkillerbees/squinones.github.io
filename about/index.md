@@ -7,7 +7,7 @@ share: false
 comments: false
 ---
 
-<img src="/images/bmorephp_cropped.jpg" align="right" />Samantha is a polyglot hacker, writer, public speaker, and a 
+<img src="/images/bmorephp_cropped.jpg" align="right" />I'm a polyglot hacker, writer, public speaker, and a 
 recognized expert on high-performance system design and architecture. Since 1997, I've had the pleasure of building 
 software and leading engineering teams for some of the biggest names technology, finance, and media.
 
