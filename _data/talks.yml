@@ -3,7 +3,7 @@
   timeRequired: 60 minutes
   slides: http://www.slideshare.net/samanthaquinonestembies/demystifying-the-rest-api
   video: https://youtu.be/IkPkVx-lI5A
-  givenAt: [SkiPHP 2014, Peers Conference 2014, Northeast PHP, Midwest PHP 2015]
+  givenAt: [SkiPHP 2014, Peers Conference 2014, Northeast PHP, Midwest PHP 2015, Pacific NW PHP 2015]
 
 - name: Designing Modern Service Architectures
   about: Cloud computing is becoming the primary way large web applications are deployed. The flexibility of these platforms gives us the opportunity to break out of the usual scaling patterns and deliver power precisely where and when we need it. Through practical examples, we'll explore a modern service-oriented application and discover strategies and tools that will help you make the most of the cloud.
@@ -20,7 +20,7 @@
 - name: "Drinking from the Firehose: Real-Time Metrics"
   about: To understand an application’s performance, first you have to know what to measure. That’s the easy part. How do you take those measurements? Store them? Analyze them? Get them to the people who need them? Well, that’s where things get complicated, especially in the  high-traffic distributed systems of the modern web! Like careful scientists, we must observe our subjects without altering them, and we must report our findings quickly so that we have the data necessary to make smart choices about the health and growth of the system. Let’s explore the lessons learned by engineers at one of the world’s top web companies in their quest to find meaning at 5 MB/s. We’ll discuss the tools and techniques that enable the collection, indexing, and analysis of billions or more datapoints each hour, and learn how these same approaches can empower your applications and your business, no matter the scale.
   timeRequired: 60 minutes
-  givenAt: ["php[tek] 2015"]
+  givenAt: ["php[tek] 2015", Mobile and Web Dev Conference, Pacific NW PHP 2015, Bulgaria PHP ]
 
 - name: Hacking the Human Interface
   timeRequired: 45-60 minutes
@@ -30,7 +30,7 @@
 - name: Supercharging Content Delivery with Varnish
   timeRequired: 60 minutes
   about: You have amazing content and you want to get it to your users as fast as possible. In today’s industry, milliseconds matter and slow websites will never keep up. You can use a CDN but they are expensive, make you dependant on a third party to deliver your content, and can be notoriously inflexible. Enter Varnish, a powerful, open-source caching reverse proxy that lives in your network and lets you take control of how your content is managed and delivered. We’ll discuss how to install and configure Varnish in front of a typical web application, how to handle sessions and security, and how you can customize Varnish to your unique needs.  This session will teach you how Varnish can help you give your users a better experience while saving your company and clients money at the same time.
-  givenAt: [Daycamp for Developers]
+  givenAt: [Daycamp for Developers, ZendCon 2015 ]
 
 - name: "TDD: Team-Driven Development"
   timeRequired: 45-60 minutes
