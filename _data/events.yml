@@ -35,13 +35,13 @@
 - name: "ZendCon 2015"
   location: "Las Vegas, NV, USA"
   url: "http://zendcon.com"
-  start_date: Oct 19th
-  end_date: 22nd, 2015
+  start_date: "Oct 19th"
+  end_date: "22nd, 2015"
 - name: "Velocity"
   location: "Amsterdam, The Netherlands"
   url: "http://velocityconf.com/devops-web-performance-eu-2015"
-  start_date: Oct 28th
-  end_date: 30th, 2015
+  start_date: "Oct 28th"
+  end_date: "30th, 2015"
 - name: "True North PHP"
   location: "Toronto, ON, Canada"
   url: "http://truenorthphp.ca"
@@ -49,21 +49,21 @@
   end_date: "7th, 2015"
 - name: "Madison PHP"
   location: "Madison, WI, USA",
-  url: http://2015.madisonphpconference.com/
+  url: "http://2015.madisonphpconference.com/"
   start_date: "Nov 14th"
   end_date: "2015"
 - name: "php[world] 2015"
   location: "Washington, DC, USA"
-  url: http://world.phparch.com
-  start_date: Nov 16th
-  end_date: 20th, 2015
+  url: "http://world.phparch.com"
+  start_date: "Nov 16th"
+  end_date: "20th, 2015"
 - name: "Enterprise JS"
   location: "New York City, NY, USA"
-  url: https://enterprisejs.io/
+  url: "https://enterprisejs.io/"
   start_date: "Dec 15th"
   end_date: "2015"
 - name: "SkiPHP"
   location: "Salt Lake City, UT, USA"
-  url: https://www.skiphp.com/
+  url: "https://www.skiphp.com/"
   start_date: "January 14th"
   end_date: "15th, 2015"
