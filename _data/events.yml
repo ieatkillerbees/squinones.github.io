@@ -1,3 +1,13 @@
+# - name: "SunshinePHP 2015"
+#   location: "Miami, FL"
+#   url: http://sunshinephp.com
+#   start_date: Feb 5th
+#   end_date: 7th, 2015
+# - name: "Midwest PHP 2015"
+#   location: "Minneapolis, MN"
+#   url: http://midwestphp.com
+#   start_date: Mar 14th
+#   end_date: 15th, 2015
 # - name: "php[tek] 2015"
 #   location: "Chicago, IL"
 #   url: http://tek.phparch.net
