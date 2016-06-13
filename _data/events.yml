@@ -119,7 +119,7 @@
   start_date: "August 22nd"
   end_date: "24th, 2016"
 - name: "PHP Bulgaria"
-  location, "Sofia, Bulgaria"
+  location: "Sofia, Bulgaria"
   url: "http://www.bgphp.org/"
   start_date: "October 7th"
   end_date: "9th, 2016"
